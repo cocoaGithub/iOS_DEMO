@@ -76,6 +76,15 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     [_footerView scrollViewContentOffsetChanged:scrollView.contentOffset];
 }
+
+- (void)doSomething {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"action" message:@"to do something" preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [alert dismissViewControllerAnimated:YES completion:nil];
+    }]];
+    [self.navigationController presentViewController:alert animated:YES completion:nil];
+}
+
 #pragma mark - collectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return COLLECTION_CELL_COUNT;
@@ -88,8 +97,7 @@
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-//    [self.router openSecKillWeb];
-    
+//    [self doSomething];
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
@@ -104,7 +112,7 @@
     NSLog(@"scroll position:%f,%f",scrollView.contentOffset.x, scrollView.contentOffset.y);
     NSLog(@"scroll contenSize:%f,%f",scrollView.contentSize.width, scrollView.contentSize.height);
     if ((scrollView.contentOffset.x + cScreenWidth) > (scrollView.contentSize.width + CC_Stretch_Rigth_Offset)) {
-//        [self.router openSecKillWeb];
+        [self doSomething];
     }
 }
 
