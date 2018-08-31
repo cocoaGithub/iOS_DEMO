@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6400D2F908A3DBC0F49FEC4A /* libPods-CCCollectionStretchAnim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254D7250CAEEAFEC8DF1E2A6 /* libPods-CCCollectionStretchAnim.a */; };
+		CCA12B422137C97F00BF5D70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA12B412137C97F00BF5D70 /* AppDelegate.m */; };
+		CCA12B452137C97F00BF5D70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA12B442137C97F00BF5D70 /* ViewController.m */; };
+		CCA12B482137C97F00BF5D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA12B462137C97F00BF5D70 /* Main.storyboard */; };
+		CCA12B4A2137C98000BF5D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA12B492137C98000BF5D70 /* Assets.xcassets */; };
+		CCA12B4D2137C98000BF5D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA12B4B2137C98000BF5D70 /* LaunchScreen.storyboard */; };
+		CCA12B502137C98100BF5D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA12B4F2137C98100BF5D70 /* main.m */; };
+		CCA12B582137CC9100BF5D70 /* CCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA12B572137CC9100BF5D70 /* CCCollectionViewCell.m */; };
+		CCA12B5D2137D82F00BF5D70 /* CCStretchAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA12B5C2137D82F00BF5D70 /* CCStretchAnimView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		254D7250CAEEAFEC8DF1E2A6 /* libPods-CCCollectionStretchAnim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCCollectionStretchAnim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29310CF7EB3B79375BACC4D5 /* Pods-CCCollectionStretchAnim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCCollectionStretchAnim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCCollectionStretchAnim/Pods-CCCollectionStretchAnim.debug.xcconfig"; sourceTree = "<group>"; };
+		30FD95E6DE6B76288309E108 /* Pods-CCCollectionStretchAnim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCCollectionStretchAnim.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCCollectionStretchAnim/Pods-CCCollectionStretchAnim.release.xcconfig"; sourceTree = "<group>"; };
+		CCA12B3D2137C97F00BF5D70 /* CCCollectionStretchAnim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCollectionStretchAnim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA12B402137C97F00BF5D70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA12B412137C97F00BF5D70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA12B432137C97F00BF5D70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA12B442137C97F00BF5D70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA12B472137C97F00BF5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA12B492137C98000BF5D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA12B4C2137C98000BF5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA12B4E2137C98000BF5D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA12B4F2137C98100BF5D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA12B562137CC9100BF5D70 /* CCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCollectionViewCell.h; sourceTree = "<group>"; };
+		CCA12B572137CC9100BF5D70 /* CCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCollectionViewCell.m; sourceTree = "<group>"; };
+		CCA12B5B2137D82F00BF5D70 /* CCStretchAnimView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCStretchAnimView.h; sourceTree = "<group>"; };
+		CCA12B5C2137D82F00BF5D70 /* CCStretchAnimView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCStretchAnimView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA12B3A2137C97F00BF5D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6400D2F908A3DBC0F49FEC4A /* libPods-CCCollectionStretchAnim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		862B9791B758993C0ECBDA59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29310CF7EB3B79375BACC4D5 /* Pods-CCCollectionStretchAnim.debug.xcconfig */,
+				30FD95E6DE6B76288309E108 /* Pods-CCCollectionStretchAnim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96B276C867D3D1F4DCA063ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				254D7250CAEEAFEC8DF1E2A6 /* libPods-CCCollectionStretchAnim.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA12B342137C97F00BF5D70 = {
+			isa = PBXGroup;
+			children = (
+				CCA12B3F2137C97F00BF5D70 /* CCCollectionStretchAnim */,
+				CCA12B3E2137C97F00BF5D70 /* Products */,
+				862B9791B758993C0ECBDA59 /* Pods */,
+				96B276C867D3D1F4DCA063ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA12B3E2137C97F00BF5D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA12B3D2137C97F00BF5D70 /* CCCollectionStretchAnim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA12B3F2137C97F00BF5D70 /* CCCollectionStretchAnim */ = {
+			isa = PBXGroup;
+			children = (
+				CCA12B402137C97F00BF5D70 /* AppDelegate.h */,
+				CCA12B412137C97F00BF5D70 /* AppDelegate.m */,
+				CCA12B432137C97F00BF5D70 /* ViewController.h */,
+				CCA12B442137C97F00BF5D70 /* ViewController.m */,
+				CCA12B462137C97F00BF5D70 /* Main.storyboard */,
+				CCA12B492137C98000BF5D70 /* Assets.xcassets */,
+				CCA12B4B2137C98000BF5D70 /* LaunchScreen.storyboard */,
+				CCA12B4E2137C98000BF5D70 /* Info.plist */,
+				CCA12B4F2137C98100BF5D70 /* main.m */,
+				CCA12B562137CC9100BF5D70 /* CCCollectionViewCell.h */,
+				CCA12B572137CC9100BF5D70 /* CCCollectionViewCell.m */,
+				CCA12B5B2137D82F00BF5D70 /* CCStretchAnimView.h */,
+				CCA12B5C2137D82F00BF5D70 /* CCStretchAnimView.m */,
+			);
+			path = CCCollectionStretchAnim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA12B3C2137C97F00BF5D70 /* CCCollectionStretchAnim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA12B532137C98100BF5D70 /* Build configuration list for PBXNativeTarget "CCCollectionStretchAnim" */;
+			buildPhases = (
+				5FB9AFDEA33C883FB827996D /* [CP] Check Pods Manifest.lock */,
+				CCA12B392137C97F00BF5D70 /* Sources */,
+				CCA12B3A2137C97F00BF5D70 /* Frameworks */,
+				CCA12B3B2137C97F00BF5D70 /* Resources */,
+				859850A00EBF2EFC0CE1D553 /* [CP] Embed Pods Frameworks */,
+				A1AFE0DE6F27C9A3E47A2635 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCCollectionStretchAnim;
+			productName = CCCollectionStretchAnim;
+			productReference = CCA12B3D2137C97F00BF5D70 /* CCCollectionStretchAnim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA12B352137C97F00BF5D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cocoa;
+				TargetAttributes = {
+					CCA12B3C2137C97F00BF5D70 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CCA12B382137C97F00BF5D70 /* Build configuration list for PBXProject "CCCollectionStretchAnim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA12B342137C97F00BF5D70;
+			productRefGroup = CCA12B3E2137C97F00BF5D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA12B3C2137C97F00BF5D70 /* CCCollectionStretchAnim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA12B3B2137C97F00BF5D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA12B4D2137C98000BF5D70 /* LaunchScreen.storyboard in Resources */,
+				CCA12B4A2137C98000BF5D70 /* Assets.xcassets in Resources */,
+				CCA12B482137C97F00BF5D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FB9AFDEA33C883FB827996D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCCollectionStretchAnim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859850A00EBF2EFC0CE1D553 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCCollectionStretchAnim/Pods-CCCollectionStretchAnim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AFE0DE6F27C9A3E47A2635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCCollectionStretchAnim/Pods-CCCollectionStretchAnim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA12B392137C97F00BF5D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA12B452137C97F00BF5D70 /* ViewController.m in Sources */,
+				CCA12B502137C98100BF5D70 /* main.m in Sources */,
+				CCA12B582137CC9100BF5D70 /* CCCollectionViewCell.m in Sources */,
+				CCA12B422137C97F00BF5D70 /* AppDelegate.m in Sources */,
+				CCA12B5D2137D82F00BF5D70 /* CCStretchAnimView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCA12B462137C97F00BF5D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA12B472137C97F00BF5D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA12B4B2137C98000BF5D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA12B4C2137C98000BF5D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA12B512137C98100BF5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA12B522137C98100BF5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA12B542137C98100BF5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29310CF7EB3B79375BACC4D5 /* Pods-CCCollectionStretchAnim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7JD853TMG;
+				INFOPLIST_FILE = CCCollectionStretchAnim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoa.CCCollectionStretchAnim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA12B552137C98100BF5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FD95E6DE6B76288309E108 /* Pods-CCCollectionStretchAnim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7JD853TMG;
+				INFOPLIST_FILE = CCCollectionStretchAnim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoa.CCCollectionStretchAnim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA12B382137C97F00BF5D70 /* Build configuration list for PBXProject "CCCollectionStretchAnim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA12B512137C98100BF5D70 /* Debug */,
+				CCA12B522137C98100BF5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA12B532137C98100BF5D70 /* Build configuration list for PBXNativeTarget "CCCollectionStretchAnim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA12B542137C98100BF5D70 /* Debug */,
+				CCA12B552137C98100BF5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA12B352137C97F00BF5D70 /* Project object */;
+}
